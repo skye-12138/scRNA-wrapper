@@ -1,0 +1,21 @@
+Package: scRNAwrapper
+Title: scRNAwrapper: Wrapper for single cell analysis
+Version: 0.1.0
+Authors@R: 
+    person(given = "skye",
+           family = "wu",
+           role = c("aut", "cre"),
+           email = "first.last@example.com",
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: Package some analysis tools to make singler cell analysis easier
+License: GPL
+Encoding: UTF-8
+LazyData: true
+Depends:
+    Seurat,
+    SingleR,
+    scater,
+    ComplexHeatmap,
+    magrittr,
+    dplyr,
+RoxygenNote: 6.1.1
